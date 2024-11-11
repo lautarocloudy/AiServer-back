@@ -17,7 +17,7 @@ const puerto = process.env.PORT || 3000;
 const corsOptions = {
 	origin: function (origin, callback) {
 	  const allowedOrigins = [
-		'https://smart-ceo.netlify.app',  // Dominio de producción
+		'https://ai-server-arg.netlify.app/',  // Dominio de producción
 		'http://localhost:3000',          // Localhost para desarrollo
 		'null'                            // Permite el origen 'file://'
 	  ];
